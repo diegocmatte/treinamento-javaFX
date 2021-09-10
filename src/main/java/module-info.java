@@ -12,4 +12,7 @@ module com.example.treinamentojavafx {
 
     opens com.example.treinamentojavafx to javafx.fxml;
     exports com.example.treinamentojavafx;
+
+    opens com.example.basico;
+    exports com.example.basico;
 }
