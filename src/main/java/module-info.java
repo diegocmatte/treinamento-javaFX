@@ -15,4 +15,7 @@ module com.example.treinamentojavafx {
 
     opens com.example.basico;
     exports com.example.basico;
+
+    opens com.example.layout;
+    exports com.example.layout;
 }
