@@ -29,11 +29,15 @@ public class AppLayout extends Application {
         temp.getChildren().add(new Quadrado());
 
         Scene principal = new Scene(new TesteAnchorPane(), 800,600);
+
+        raiz = new TesteBorderPane();
+        raiz = new TesteFlowPane();
+        raiz = new TesteGridPane();
+        raiz = new TesteStackPane();
  */
         Parent raiz = null;
 
-//        raiz = new TesteBorderPane();
-        raiz = new TesteFlowPane();
+        raiz = new TesteTilePane();
 
         Scene principal = new Scene(raiz, 800,600);
         stage.setScene(principal);
