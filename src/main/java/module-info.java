@@ -10,8 +10,8 @@ module com.example.treinamentojavafx {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens com.example.treinamentojavafx to javafx.fxml;
-    exports com.example.treinamentojavafx;
+    opens com.example.fxml to javafx.fxml;
+    exports com.example.fxml;
 
     opens com.example.basico;
     exports com.example.basico;
